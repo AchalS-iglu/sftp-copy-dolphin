@@ -1,11 +1,11 @@
  [Desktop Entry]
- Name = Open in VS Code Insiders
+ Name = Upload to SFTPServer
  Type=Service
  ServiceTypes=KonqPopupMenu/Plugin
  MimeType=all/all
- Actions=upload-to-jf-server;
+ Actions=SFTPUpload;
 
- [Desktop Action upload-to-jf-server]
- Name=Upload to JellyFin
+ [Desktop Action SFTPUpload]
+ Name=Upload to SFTP Server
  Icon=network-server
  Exec[$e]=$HOME/.local/bin/sftp-copy-dolphin %u
